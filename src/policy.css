@@ -1,0 +1,6 @@
+.policy-control { position: relative; }
+.policy-label { align-items: center; display: flex; gap: .35rem; }
+.policy-info { display: inline-block; position: relative; }
+.policy-info summary { align-items: center; background: #36505f; border: 1px solid #608092; border-radius: 50%; color: #fff; cursor: pointer; display: flex; font-size: .72rem; font-weight: 700; height: 1.15rem; justify-content: center; list-style: none; width: 1.15rem; }
+.policy-info summary::-webkit-details-marker { display: none; }
+.policy-popover { background: #17212b; border: 1px solid #537080; border-radius: .5rem; box-shadow: 0 12px 28px #0008; color: #d6e1e6; font-size: .8rem; font-weight: 400; left: -1rem; line-height: 1.45; padding: .7rem .8rem; position: absolute; top: 1.45rem; width: min(18rem, 75vw); z-index: 10; }
